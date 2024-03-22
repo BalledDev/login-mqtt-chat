@@ -1,0 +1,32 @@
+<! DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/icon" href="./ico/RANDOM-CHAT-Logo.ico">
+    <link rel="stylesheet" href="./css/style.css">
+    <script type="text/javascript" href="./js/mqtt.js"></script>
+    <title>CipherConnect</title>
+</head>
+<body>
+    <div class="formulario" >
+        <h1>Registro de Usuario</h1>
+        <form method="post" action="./php/registro_usuario.php">
+            <div class="username">
+                <label>Nombre de Usuario</label>
+                <input type="text" required autofocus name="usuario">
+            </div>
+            <div class="username">
+                <label>Contraseña</label>
+                <input type="password" required name="contraseña">
+            </div>
+            <div>
+                <input type="submit" value="Enviar" onclick="location.href='./chat/chat-example-master/src/index.htm'">
+            </div>
+            <div class="registrarse">
+                Quiero volver al <a href="#" onclick="location.href='./index.html'">inicio</a>
+            </div>
+        </form>
+    </div>
+</body>
+</html>
